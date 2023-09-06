@@ -25,13 +25,13 @@ while running:
         os.system('cls')
         print("Stap maar in!")
         print(coasterimg.get())
-        time.sleep(2)
+        time.sleep(1)
 
     else:
         os.system('cls')
         print("Je voldoet niet aan de voorwaarden...")
         print(coasterimg.sad())
-        time.sleep(2)
+        time.sleep(1)
 
     result = input("Druk op Enter om nog een keer te checken, of Q om te stoppen\n\n")
     if(result.upper() == "Q"):
